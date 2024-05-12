@@ -1,0 +1,43 @@
+.profileimage {
+  width: 250px;
+}
+.profileimage img {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+}
+.cardTitle {
+  width: 100px;
+  padding: 7px;
+  text-align: center;
+  font-size: 18px;
+  background-image: linear-gradient(to right, #32f6f6, gray);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.btn1 {
+  background-image: linear-gradient(
+    to left,
+    rgb(238, 130, 7),
+    rgb(204, 168, 102)
+  );
+  border-radius: 5px;
+  padding: 4px 6px 4px 6px;
+}
+.btn2 {
+  background-image: linear-gradient(to left, rgb(53, 50, 48), black);
+  border-radius: 5px;
+  padding: 4px 6px 4px 6px;
+  color: white;
+  transition: all;
+}
+@media only screen and (max-width: 600px) and (min-width: 300) {
+  .aboutpage {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    border: 2px solid red;
+  }
+}

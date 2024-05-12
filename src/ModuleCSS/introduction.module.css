@@ -1,0 +1,33 @@
+.verctor1 {
+  width: 280px;
+  background-image: url('../../public/Vector1.png');
+  background-position: center;
+  background-size: cover;
+}
+.introuction {
+  position: absolute;
+  top: 40rem;
+  width: 100%;
+  margin: auto;
+}
+
+.leftvector3 {
+  width: 275px;
+  height: 551px;
+  background-image: url('../../public/Vector3.png');
+  background-position: center;
+  background-size: cover;
+  float: right;
+  margin-top: -23rem;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .introuction {
+    width: 138%;
+  }
+  .leftvector3 {
+    width: 183px;
+    height: 400px;
+    margin-top: -47rem;
+  }
+}
