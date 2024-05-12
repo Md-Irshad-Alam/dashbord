@@ -21,9 +21,11 @@
   margin-top: -23rem;
 }
 
-@media only screen and (max-width: 600px) and (min-width: 300px) {
+@media only screen and (max-width: 820px) and (min-width: 300px) {
   .introuction {
     width: 138%;
+    top: 50rem;
+    font-size: 20px;
   }
   .leftvector3 {
     width: 183px;
