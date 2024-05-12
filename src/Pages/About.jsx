@@ -1,9 +1,13 @@
 import React from 'react';
 import { Button } from '@mui/material';
 import style from '../ModuleCSS/about.module.css';
+import { ThemeContext } from '../Themecontext/context';
 function About() {
+  const [{ themename }] = React.useContext(ThemeContext);
   return (
-    <div className=' container absolute left-0 right-0 h-full mb-10 '>
+    <div
+      className={`${themename} container absolute left-0 right-0 h-full mb-10 `}
+    >
       <div
         className={`${style.aboutpage} mobole:flex-col  tablet:flex-col tablet:w-full laptop:flex-row  flex items-center justify-between h-fit mb-10`}
       >

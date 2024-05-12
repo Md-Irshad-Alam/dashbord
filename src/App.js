@@ -15,7 +15,7 @@ function App() {
     Aos.init({ duration: 1500 });
   }, []);
   return (
-    <div className={`${themename} absolute left-0 right-0 mb-10 h-full`}>
+    <div className={`${themename} absolute left-0 right-0 mb-10 h-[100vh]`}>
       <div className=''>
         <Navbar />
       </div>

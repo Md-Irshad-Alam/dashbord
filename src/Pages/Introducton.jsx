@@ -59,20 +59,22 @@ function Introducton() {
       <div className={`${style.leftvector3}`}>
         <div className={`${style.content}`}></div>
       </div>
-      <div className='w-3/4 m-auto flex items-center justify-between relative bottom-[7rem]'>
-        <div>
-          <img
-            src='./Vector4.png'
-            alt=''
-            className='w-[250px] object-contain'
-          />
-        </div>
-        <div>
-          <img
-            src='./Vector5.png'
-            alt=''
-            className='w-[300px] object-contain'
-          />
+      <div className='w-full m-auto bg-inherit flex items-center justify-between relative left-0 right-0 top-[0rem]'>
+        <div className=' w-3/4 m-auto flex items-center justify-between'>
+          <div>
+            <img
+              src='./Vector4.png'
+              alt=''
+              className='w-[250px] object-contain'
+            />
+          </div>
+          <div>
+            <img
+              src='./Vector5.png'
+              alt=''
+              className='w-[300px] object-contain'
+            />
+          </div>
         </div>
       </div>
     </div>
