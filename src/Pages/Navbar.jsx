@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <div className='container absolute top-10 left-0 right-0 flex justify-between '>
-      <div className='flex items-center gap-4 mobole:hidden tablet:hidden'>
+      <div className='flex items-center gap-4 mobole:hidden tablet:hidden laptop:flex'>
         <img
           src='./logo.svg'
           alt=''
