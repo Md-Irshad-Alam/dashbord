@@ -8,6 +8,7 @@ import 'aos/dist/aos.css';
 import Introducton from './Pages/Introducton';
 import Sharelink from './Pages/Sharelink';
 import { ThemeContext } from './Themecontext/context';
+import { Routes, Route } from 'react-router-dom';
 function App() {
   const [{ themename }] = React.useContext(ThemeContext);
   console.log(themename);
@@ -19,12 +20,13 @@ function App() {
       <div className=''>
         <Navbar />
       </div>
-      <div id='about' className={` mt-52`}>
+      <div id='home' className={` mt-52`}>
         <About />
         <Sharelink />
       </div>
       <div
-      // className={` relative top-72 mobole:top-[32rem]  tablet:top-[32rem]`}
+        id='introduction'
+        // className={` relative top-72 mobole:top-[32rem]  tablet:top-[32rem]`}
       >
         <Introducton />
       </div>

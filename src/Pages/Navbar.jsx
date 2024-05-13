@@ -9,7 +9,9 @@ function Navbar() {
   const [{ themename, toggeltheme }] = React.useContext(ThemeContext);
 
   return (
-    <div className='container absolute top-10 left-0 right-0 flex justify-between '>
+    <div
+      className={`${themename} bg-inherit shadow-sm fixed z-10 top-0 left-0 right-0 flex justify-between p-4`}
+    >
       <div className='flex items-center gap-4 mobole:hidden tablet:hidden laptop:flex'>
         <svg
           width='30'
@@ -34,10 +36,10 @@ function Navbar() {
         </p>
       </div>
       <div className={style.navbarLink}>
-        <Link to='/'>
+        <a href='#home'>
           <span className=''>Home</span>
-        </Link>
-        <a href='#about'>
+        </a>
+        <a href='#introduction'>
           <span>About</span>
         </a>
         <Link to='/'>
